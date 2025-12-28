@@ -37,6 +37,6 @@ kubectl get svc -n elastic
 
 ## Access chatbot
 
-Open [http://localhost:8080](http://localhost:8080) to access Chatbot.
+Open [http://External-IP] to access Chatbot.
 <img width="935" height="641" alt="chatbot" src="https://github.com/user-attachments/assets/c56fc866-fa82-45ae-969f-c258c4e8ee16" />
 
