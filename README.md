@@ -69,7 +69,6 @@ terraform -chdir=gcp-rag/vector-database/terraform/cloud-storage apply \
 gsutil cp gcp-rag/vector-database/documents/carbon-free-energy.pdf -p ${PROJECT_ID} gs://${PROJECT_ID}-${KUBERNETES_CLUSTER_PREFIX}-training-docs
 
 ```
-To get the running pod's
 
 Get the list of running Pod's
 <img width="1170" height="138" alt="get-po" src="https://github.com/user-attachments/assets/db533943-e6bc-4db6-b375-9d99d7976fd0" />
