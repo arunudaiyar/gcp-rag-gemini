@@ -23,6 +23,9 @@ cd gcp-rag-gemini
 kubectl apply -f ./
 ```
 
+Get the list of running Pod's
+<img width="1170" height="138" alt="get-po" src="https://github.com/user-attachments/assets/db533943-e6bc-4db6-b375-9d99d7976fd0" />
+
 
 ## Accessing the Chatbot UI
 
@@ -34,7 +37,6 @@ kubectl get svc -n elastic
 
 ## Access chatbot
 
-Open [http://localhost:8080](http://localhost:8080) to access Open WebUI.
-
-<img width="1366" height="645" alt="openweb-llama" src="https://github.com/user-attachments/assets/354127e4-4ffb-4503-986d-c6103da81f47" />
+Open [http://localhost:8080](http://localhost:8080) to access Chatbot.
+<img width="935" height="641" alt="chatbot" src="https://github.com/user-attachments/assets/c56fc866-fa82-45ae-969f-c258c4e8ee16" />
 
